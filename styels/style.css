@@ -1,0 +1,286 @@
+* {
+    margin:0;
+    padding:0;
+}
+.wrapper {
+    width:1700px;
+    margin:0 auto;
+}
+nav{
+ display:flex;
+ flex-direction: row;
+    padding:2rem;
+    justify-content: space-around;
+}
+#navbar span {
+    margin-left: 1.5rem;
+    text-transform: uppercase;
+}
+
+#navbar span:hover {
+    color:#10c9c3;
+    cursor: pointer;
+}
+header {
+    background: #e9e9e9;
+    height:80vh;
+    width:100%;
+}
+.header-text-content {
+    display:flex;
+    flex-direction: column;
+    max-width:500px;
+    float: right;
+    margin-right: 10rem;
+    margin-top: 10rem;
+}
+.header-text-content h3 {
+    font-size:35pt;
+
+}
+.header-text-content p {
+    margin-top: 3vh;
+    font-size: 18pt;
+}
+.header-text-content button{
+    margin-top: 3vh;
+    padding:1rem 0;
+    text-align:center;
+    background-color: #10c9c3;
+    max-width:180px;
+    color:white;
+    border: 0 none;
+}
+.about {
+    padding: 4rem;
+}
+.about-text{text-align:center;
+width:580px;
+margin:0 auto;}
+.about-text h2 {
+    margin-top: 3rem;
+    font-size: 3rem;
+
+}
+.about-text p {
+    margin-top:3rem;
+}
+.about-text img {
+    margin-top:3rem;
+}
+.addons {
+    display:flex;
+    padding:4rem;
+    max-height:70vh;
+}
+.addon-img {
+
+    width:50%;
+    max-height:60vh;
+    margin-top: 3rem;
+    background-color:#e9e9e9;
+}
+.prof-skills{
+    width:50%;
+
+}
+.prof-skills h2 {
+    font-size: 30pt;
+    margin-top: 3rem;
+}
+.prof-skills p {
+    margin-top: 3rem;
+}
+.prof-skills .ui {
+    width: 95%;
+    background-color: gray;
+    height: 10px;
+}
+.prof-skills .wd {
+    width: 95%;
+    background-color: gray;
+    height: 10px;
+}
+.prof-skills .m {
+    width: 95%;
+    background-color: gray;
+    height: 10px;
+}
+.prof-skills .ui-s {
+    width:100%;
+    background-color: blue;
+    height:3px;
+    z-index: 100000;
+}
+.banner {
+    background-color:#10c9c3;
+
+}
+.banner-elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:5rem;
+}
+.banner-element {
+    display:flex;
+    color:white;
+}
+.banner-element h3 {
+    margin-top: 1rem;
+}
+.banner-element img{
+    width:40px;
+    height:40px;
+    margin-right: 1.3rem;
+    margin-top: 0.5rem;
+}
+.banner-element h4{
+    font-size: 20pt;
+}
+.portfolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin: 2rem;
+    justify-content: center;
+
+}
+.prtf-elem {
+
+    width:400px;
+    height:350px;
+    margin:1rem;
+
+}
+.prtf-elem:nth-child(even) {
+    background-color: #dddddd;
+}
+.prtf-elem:nth-child(odd) {
+    background-color: #838383;
+}
+.our-work-proj {
+    padding:3rem;
+    text-align:center;
+}
+.our-work-proj h2 {
+    margin-top: 2rem;
+    text-transform: uppercase;
+    font-size: 25pt;
+}
+.our-work-proj p {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.our-work-proj .video {
+
+    width:1200px;
+    height:60vh;
+    background-color: #838383;
+    margin: 0 auto;
+}
+.services {
+    margin-top: 4rem;
+    background-color: #dddddd;
+}
+.service-elements {
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+}
+.service-elem {
+    text-align:center;
+    max-width:280px;
+    height:280px;
+    padding: 0 3rem;
+    margin: 0 auto;
+
+}
+.service-elem h3 {
+    margin-top: 1rem;
+}
+.service-elem p {
+    margin-top: 1rem;
+}
+.testimonials {
+    background-color:#10c9c3 ;
+}
+.testimonial-text{
+    max-width:800px;
+    margin:0 auto;
+    padding:10rem;
+    text-align:center;
+    color:white;
+}
+.testimonial-text h4 {
+    font-size: 23pt;
+
+}
+.testimonial-text h5 {
+    margin-top: 3rem;
+    font-size: 15pt;
+}
+.clients {
+    padding:4rem;
+}
+.clients-images {
+    display:flex;
+    justify-content: space-between;
+}
+.contact {
+    background-color: #f5f5f5;
+    text-align:center;
+    padding: 2rem;
+}
+.contact h2 {
+    margin-top: 3rem;
+    font-size: 30pt;
+    }
+.contact p {
+    margin-top: 2rem;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+
+}
+.contact .name-email {
+    margin-top: 2rem;
+}
+.contact .name-email input {
+    width:280px;
+    padding:15px;
+    margin-left: 1.5rem;
+}
+.contact input {
+    width:600px;
+    margin: 0 auto;
+    padding:15px;
+    margin-top: 2rem;
+}
+.contact textarea {
+    width:650px;
+    margin:0 auto;
+    margin-top: 2rem;
+
+}
+.contact button {
+    width:200px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding:1rem 2rem;
+    background: #10c9c3;
+    text-align:center;
+    border: none;
+    color: white;
+    }
+
+footer {
+    height:40vh;
+    background-color: black;
+    width:100%;
+    color:white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
