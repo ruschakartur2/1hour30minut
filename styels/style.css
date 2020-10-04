@@ -3,7 +3,7 @@
     padding:0;
 }
 .wrapper {
-    width:1700px;
+    max-width:1700px;
     margin:0 auto;
 }
 nav{
@@ -21,8 +21,14 @@ nav{
     color:#10c9c3;
     cursor: pointer;
 }
+#navbar a {
+    color: black;
+    text-decoration: none;
+}
 header {
-    background: #e9e9e9;
+    background-image:url('../images/background_home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height:80vh;
     width:100%;
 }
@@ -50,10 +56,12 @@ header {
     max-width:180px;
     color:white;
     border: 0 none;
+    cursor: pointer;
 }
 .about {
     padding: 4rem;
 }
+
 .about-text{text-align:center;
 width:580px;
 margin:0 auto;}
@@ -82,6 +90,8 @@ margin:0 auto;}
 }
 .prof-skills{
     width:50%;
+    text-transform: uppercase;
+    font-weight: 500;
 
 }
 .prof-skills h2 {
@@ -95,22 +105,56 @@ margin:0 auto;}
     width: 95%;
     background-color: gray;
     height: 10px;
+    position: relative;
+}
+span.ui-s {
+    position: relative;
+    background-color: red!important;
+    top:0;
+    bottom:0;
+    z-index: 500;
+    height:100%;
+    width:75%;
+    display:block;
 }
 .prof-skills .wd {
     width: 95%;
     background-color: gray;
     height: 10px;
+    position: relative;
+}
+span.wd-s {
+    position: relative;
+    background-color: red!important;
+    top:0;
+    bottom:0;
+    z-index: 500;
+    height:100%;
+    width:90%;
+    display:block;
 }
 .prof-skills .m {
     width: 95%;
     background-color: gray;
     height: 10px;
+    position: relative;
 }
-.prof-skills .ui-s {
+span.m-s {
+    position: relative;
+    background-color: red!important;
+    top:0;
+    bottom:0;
+    z-index: 500;
+    height:100%;
+    width:65%;
+    display:block;
+}
+.addon-img {
+    max-width:800px;
+}
+.addon-img img {
     width:100%;
-    background-color: blue;
-    height:3px;
-    z-index: 100000;
+    height:100%;
 }
 .banner {
     background-color:#10c9c3;
@@ -147,18 +191,23 @@ margin:0 auto;}
 
 }
 .prtf-elem {
-
     width:400px;
-    height:350px;
+    height:300px;
     margin:1rem;
+}
+.prtf-elem img {
+    width:100%;
+    height:100%;
+    opacity:0.2;
+    transition: all 1s ease-out;
 
 }
-.prtf-elem:nth-child(even) {
-    background-color: #dddddd;
+.prtf-elem img:hover {
+    opacity:1;
+    transition: 1s all;
+    transform: scale(1.1,1.1);
 }
-.prtf-elem:nth-child(odd) {
-    background-color: #838383;
-}
+
 .our-work-proj {
     padding:3rem;
     text-align:center;
@@ -174,7 +223,7 @@ margin:0 auto;}
 }
 .our-work-proj .video {
 
-    width:1200px;
+    max-width:1200px;
     height:60vh;
     background-color: #838383;
     margin: 0 auto;

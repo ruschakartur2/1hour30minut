@@ -8,18 +8,18 @@
 <body>
 <header>
 <div class="wrapper">
-    <nav id="navbar">
+    <nav id="navbar" id="home">
         <div class="logo">
             <img src="images/logo.png" alt="" width="30" height="30">
         </div>
         <div class="navigation">
-            <span>Home</span>
-            <span>About</span>
-            <span>Work</span>
-            <span>Process</span>
-            <span>Services</span>
-            <span>Testimonials</span>
-            <span>Contact</span>
+                <a href="#home"><span>Home</span></a>
+                <a href="#about"> <span>About</span></a>
+                <a href="#work"> <span>Work</span></a>
+                <a href="#process"> <span>Process</span></a>
+                <a href="#services"> <span>Services</span></a>
+                <a href="#testimonials">  <span>Testimonials</span></a>
+                <a href="#contact"><span>Contact</span></a>
         </div>
     </nav>
     <div class="header-text-content">
@@ -32,7 +32,7 @@
 
 </div>
 </header>
-<div class="about">
+<div class="about" id="about">
     <div class="wrapper">
     <div class="about-text">
         <h2>About Us</h2>
@@ -49,18 +49,18 @@
                 <p class="ui"><span class="ui-s"></span></p>
             </p>
             <p>Web development 90%</p>
-                <p class="wd"></p>
+                <p class="wd"><span class="wd-s"></span></p>
             <p> marketing 65%</p>
-                <p class="m"></p>
+                <p class="m"><span class="m-s"></span></p>
         </div>
         <div class="addon-img">
-            <img src="" alt="">
+            <img src="images/skills_bg.jpg" alt="">
         </div>
     </div>
     </div>
 
 </div>
-<div class="banner">
+<div class="banner" id="work">
     <div class="wrapper">
         <div class="banner-elements">
             <div class="banner-element">
@@ -94,23 +94,29 @@
         </div>
     </div>
 </div>
-<div class="portfolio">
-    <div class="prtf-elem"></div>
-    <div class="prtf-elem"></div>
-    <div class="prtf-elem"></div>
-    <div class="prtf-elem"></div>
-    <div class="prtf-elem"></div>
-    <div class="prtf-elem"></div>
-    <div class="prtf-elem"></div>
-    <div class="prtf-elem"></div>
+<div class="portfolio" id="portfolio">
+    <div class="prtf-elem"><img src="images/portfolio/1.png" alt=""></div>
+    <div class="prtf-elem"><img src="images/portfolio/2.jpg" alt=""></div>
+    <div class="prtf-elem"><img src="images/portfolio/3.jpg" alt=""></div>
+    <div class="prtf-elem"><img src="images/portfolio/4.jpg" alt=""></div>
+    <div class="prtf-elem"><img src="images/portfolio/5.jpg" alt=""></div>
+    <div class="prtf-elem"><img src="images/portfolio/6.png" alt=""></div>
+    <div class="prtf-elem"><img src="images/portfolio/7.jpg" alt=""></div>
+    <div class="prtf-elem"><img src="images/portfolio/8.jpg" alt=""></div>
 </div>
-<div class="our-work-proj">
+<div class="our-work-proj" id="process">
     <h2>Our Work Process</h2>
     <p> Was years it seasons was there form he in in them together over that,
         third sixth gathered female creeping bearing behold years.</p>
-    <div class="video"></div>
+    <div class="video">
+        <video width="100%" height="100%" controls>
+            <source src="https://www.youtube.com/watch?v=cdk4hVPN_F0&list=RDMMcdk4hVPN_F0&start_radio=1" type="video/mp4">
+            <source src="https://www.youtube.com/watch?v=cdk4hVPN_F0&list=RDMMcdk4hVPN_F0&start_radio=1" type="video/ogg">
+            <img src="https://i0.wp.com/itc.ua/wp-content/uploads/2019/09/Apple-Music-Android.jpg" alt="" width="100%" height="100%" title="No video upload now">
+            </video>
+    </div>
 </div>
-<div class="services">
+<div class="services" id="services">
     <div class="wrapper">
         <div class="service-elements">
             <div class="service-elem"><img src="images/services/ui.png" alt=""> <h3>UI/UX design</h3> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aut autem deleniti dolore earum enim error est, et, facilis fugiat harum incidunt, nam porro quam quia rem repellendus tenetur voluptate?</p></div>
@@ -124,7 +130,7 @@
         </div>
     </div>
 </div>
-<div class="testimonials">
+<div class="testimonials" id="testimonials">
     <div class="wrapper">
         <div class="testimonial-text">
             <h4>“ Outstanding job and exceeded all expectations. It was a pleasure
@@ -134,7 +140,7 @@
         </div>
     </div>
 </div>
-<div class="clients">
+<div class="clients" >
     <div class="wrapper">
         <div class="clients-images">
             <img src="images/clients/1.png" alt="">
@@ -145,7 +151,7 @@
         </div>
     </div>
 </div>
-<div class="contact">
+<div class="contact" id="contact">
     <h2>Need a project?</h2>
     <p>Let us know what you're looking for in an agency. We'll take a look and see
         if this could be the start of something beautiful.</p>
